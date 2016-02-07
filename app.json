@@ -1,0 +1,7 @@
+{
+  "name": "Chatly",
+  "description": "Chat Application",
+  "repository": "https://github.com/thisisrajat/chat",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}

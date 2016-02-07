@@ -3,12 +3,13 @@ var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
 var io = require('../..')(server);
-
-var server_port = process.env.PORT || 8080
+app.set('port', (process.env.PORT || 5000));
  
-server.listen(server_port, server_ip_address, function () {
-  console.log( "Listening on " + server_port )
+server.listen(app.get('port'), function () {
+  console.log( "Listening!");
 });
+
+app.set('view engine', 'ejs');
 
 // Routing
 app.use(express.static(__dirname + '/public'));

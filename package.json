@@ -1,12 +1,26 @@
 {
-  "name": "socket.io-chat",
-  "version": "0.0.0",
-  "description": "A simple chat client using socket.io",
+  "name": "Chat Application",
+  "version": "0.1",
+  "description": "A head first solution for chatting",
   "main": "index.js",
-  "author": "Grant Timmerman",
-  "private": true,
-  "license": "BSD",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "express": "3.4.8"
-  }
+    "ejs": "2.3.3",
+    "express": "4.13.3"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thisisrajat/chat"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
