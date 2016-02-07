@@ -1,5 +1,5 @@
 {
-  "name": "Chat Application",
+  "name": "ChatApplication",
   "version": "0.1",
   "description": "A head first solution for chatting",
   "main": "index.js",
