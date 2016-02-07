@@ -5,7 +5,7 @@ var io = require('socket.io').listen(server);
 var port = process.env.PORT || 5000;
  
 server.listen(port, function () {
-  console.log( "Listening!");
+  console.log( "Listening! on 5000 or whatever");
 });
 
 // Routing

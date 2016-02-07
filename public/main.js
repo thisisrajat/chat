@@ -83,7 +83,6 @@ $(function() {
       options.fade = false;
       $typingMessages.remove();
     }
-
     var $usernameDiv = $('<span class="username"/>')
       .text(data.username)
       .css('color', getUsernameColor(data.username));
@@ -228,8 +227,7 @@ $(function() {
   // Whenever the server emits 'login', log the login message
   socket.on('login', function (data) {
     connected = true;
-    // Display the welcome message
-    var message = "Welcome to Socket.IO Chat – ";
+    var message = "";
     log(message, {
       prepend: true
     });
